@@ -29,4 +29,5 @@ Router::add("#^/api/.*$#", DIR_CTRL.'/api.php', Router::ROUTE_PCRE);
  *      /news/archive/ goes to news/archive.php
  */
  
+ Router::add('/about', DIR_CTRL.'/about.php');
  ?>

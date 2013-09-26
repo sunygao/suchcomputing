@@ -28,6 +28,7 @@
 		<!-- BEGIN: DEV javascript -->
 			<!-- BEGIN: jquery -->
 			<script src="/js/jquery/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="/js/jquery/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
 			<!-- END: jquery -->
 			<!-- BEGIN: plugins -->
 			<script src="/js/plugins/handlebars-1.0.rc.1.js" type="text/javascript"></script>
@@ -38,7 +39,8 @@
 			<script src="/js/util.js" type="text/javascript" charset="utf-8"></script>
 			<script src="/js/modal.js" type="text/javascript" charset="utf-8"></script>
 			<script src="/js/index.js" type="text/javascript" charset="utf-8"></script>
-			<!-- END: app -->
+			<script src="/js/about.js" type="text/javascript" charset="utf-8"></script>
+		<!-- END: app -->
 		<!-- END: DEV javascript -->
 	<?php } ?>
 

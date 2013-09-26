@@ -58,8 +58,42 @@
 </head>
 <body class="<?php if (isset($class)) echo $class; ?>">
 	<div id="page-wrapper">
-		<header id="global-header">
-			<h1><a href="#">SG</a></h1>
+		<header id="menu">
+			<h1><a href="./">Suny Gao</a></h1>
+			<ul id="nav">
+				<!-- <li id="back_to_menu">
+					<a href="#menu">Menu</a>
+				</li> -->
+				<li>
+					<a href="./">Projects</a>
+					<?php if (isset($settings->page) && $settings->page == 'home') {
+						echo 
+							'<ul>
+								<li><a href="#americas_backyard">America\'s Backyard</a></li>
+								<li><a href="#evb">EVB.com</a></li>
+								<li><a href="#sandwich_cannon">Jimmy John\'s Sandwich Cannon</a></li>
+								<li><a href="#grilled_cheese">Grilled Cheese Reunion</a></li>
+								<li><a href="#foldables">Sunglass Hut Foldables</a></li>
+								<li><a href="#love_for_liz">Love For Liz</a></li>
+								<li><a href="#sgg>Sleeping Giant Glossolalia</a></li>
+								<li><a href="#black_bag">Glad Black Bag</a></li>
+								<li><a href="#nextpedition">Nextpedition</a></li>
+								<li><a href="#govt_contracting">AMEX Government Contracting</a></li>
+								<li><a href="#lifecycle">Coke Zero LifeCycle</a></li>
+							</ul>';
+					} ?>
+				</li>
+				<li>
+					<a href="/about">About</a>
+				</li>
+				<li>
+					<a href="#todo">Resume</a>
+				</li>
+				<li id="contact">
+					<a href="mailto:suny.gao@gmail.com" id="email">Email</a>
+					<a href="http://lnkd.in/bhzhDQt" target="_blank" id="linked_in">LinkedIn</a>
+				</li>
+			</ul>
 		</header>
 
 		<main id="main-content" role="main">

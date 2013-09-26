@@ -1,6 +1,6 @@
 <?php
 
-$settings->setPage("Index Page");
+$settings->setPage("home");
 $class = "home"; 
 $content = 'SG example content';
 

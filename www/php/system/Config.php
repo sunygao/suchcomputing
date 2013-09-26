@@ -20,8 +20,8 @@ class Config {
 	// ========================
 
 	// update these:
-	var $title = "Evolution Bureau";
-	var $twitter = "@evb";
+	var $title = "Suny Gao";
+	var $twitter = "@secretsuny";
 	var $description = "This is an example of description copy. Please change me!";
 
 	var $validation = true;

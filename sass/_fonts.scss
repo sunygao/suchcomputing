@@ -1,0 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,600italic,700,400italic,600);
+
+@mixin Crimson() { font-family: 'Crimson Text', serif; font-weight: 400; }
+@mixin CrimsonItalic() { font-family: 'Crimson Text', serif; font-weight: 400; font-style: italic; }
+@mixin CrimsonSemiBold() { font-family: 'Crimson Text', serif; font-weight: 600; }
+@mixin CrimsonSemiBoldItalic() { font-family: 'Crimson Text', serif; font-weight: 600; font-style: italic; }
+@mixin CrimsonBold() { font-family: 'Crimson Text', serif; font-weight: 700; }
