@@ -3,13 +3,13 @@ body,
 html,
 #page-wrapper,
 #global-header { height: 100%; }
-body { background: #313131; @include Crimson(); font-size: 13px;  }
+body { background: #313131; @include Crimson(); font-size: 13px; }
 
-$textcolor: #ddd;
+$textcolor: #c2c2c2;
 
 #page-wrapper { }
 
-#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; min-height: 660px; padding: 0px 25px; z-index: 2; position: absolute; width: 110px; 
+#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; min-height: 660px; padding: 0px 10px; z-index: 2; position: absolute; width: 110px; 
 	h1 { 
 		a { @include btn(suny); margin: 20px 0 0 -2px;  }
 	}
@@ -33,24 +33,27 @@ $textcolor: #ddd;
 }
 
 #main-content { color: $textcolor; height: 100%; overflow-y: hidden; width: 100%;
-	#projects { height: 100%; overflow: hidden; padding: 0 0 0 200px; width: 3000px;
+	#projects { height: 100%; overflow: hidden; padding: 0 0 0 155px; width: 3000px;
 		li { height: 97%; float: left; padding-bottom: 3%; }
 		.images { height: 100%; float: left; margin: 20px 10px 0 0; padding-right: 15px; overflow: auto; width: 700px;
 			li { height: auto; float: none; padding-bottom: 15px; } 
 			img { background: white; display: block; width: 100%; }
 		}
-		.description { border-right: 1px solid #9f9f9f; height: 94%; float: left; margin: 3% 30px 0 0; padding-right: 30px; width: 515px; 
-			a { color: #fff; }
+		.description { border-right: 1px solid #9f9f9f; height: 94%; float: left; margin: 3% 35px 0 0; padding-right: 35px; width: 490px; 
+			a { @include CrimsonBold(); color: #fff; 
+				&:hover { color: $textcolor; }
+			}
 			h2 { @include CrimsonSemiBold(); font-size: 153.9%; line-height: 130%; }
 			h3 { font-size: 93%; margin-bottom: 50px; text-transform: uppercase;
-				a { border-left: 1px solid $textcolor; color: $textcolor; display: inline-block; margin-left: 8px; padding-left: 8px;
+				span { display: inline-block; margin: 0 8px; }
+				a { color: $textcolor; display: inline-block;
 					span { @include btn(arrow); display: inline-block; position: relative; margin-left: 3px; top: 3px; }
 					&:hover { color: #fff; 
 						span { @include btn(arrow_hover); display: inline-block; }
 					}
 				}
 			}
-			p { font-size: 108%; line-height: 140%; }
+			p { font-size: 108%; line-height: 140%; margin-bottom: 15px; }
 		}
 	}
 
