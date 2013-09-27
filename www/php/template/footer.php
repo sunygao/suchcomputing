@@ -28,6 +28,7 @@
 		<!-- BEGIN: DEV javascript -->
 			<!-- BEGIN: jquery -->
 			<script src="/js/jquery/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+			<script src="/js/jquery/jquery.scrollTo.min.js" type="text/javascript" charset="utf-8"></script>
 			<script src="/js/jquery/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
 			<!-- END: jquery -->
 			<!-- BEGIN: plugins -->

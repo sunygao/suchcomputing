@@ -68,7 +68,7 @@
 					<a href="./">Projects</a>
 					<?php if (isset($settings->page) && $settings->page == 'home') {
 						echo 
-							'<ul>
+							'<ul id="project_list">
 								<li><a href="#americas_backyard">America\'s Backyard</a></li>
 								<li><a href="#evb">EVB.com</a></li>
 								<li><a href="#sandwich_cannon">Jimmy John\'s Sandwich Cannon</a></li>

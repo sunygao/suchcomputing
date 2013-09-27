@@ -31,6 +31,13 @@ SG.index = function () {
 
 			self.setWidth();
 
+			$('#project_list a').on('click', function(e) {
+				e.preventDefault();
+				var pos = $($(this).attr('href')).position().left - parseFloat($('#projects').css('paddingLeft').split('px')[0]);
+				debug.log(pos)
+				$('#main-content').scrollTo(pos, { axis:'x', duration: 500, easing: 'easeOutSine' });
+			});
+
 		},
 		setWidth: function() {
 			$('#projects').css('width', ($('#projects').children().size() * $('#projects').children().outerWidth()));

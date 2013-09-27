@@ -5,11 +5,14 @@ html,
 #global-header { height: 100%; }
 body { background: #313131; @include Crimson(); font-size: 13px; }
 
+body,
+#menu { min-height: 690px; }
+
 $textcolor: #c2c2c2;
 
 #page-wrapper { }
 
-#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; min-height: 660px; padding: 0px 10px; z-index: 2; position: absolute; width: 110px; 
+#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; padding: 0px 10px; z-index: 2; position: absolute; width: 110px; 
 	h1 { 
 		a { @include btn(suny); margin: 20px 0 0 -2px;  }
 	}
@@ -33,12 +36,13 @@ $textcolor: #c2c2c2;
 }
 
 #main-content { color: $textcolor; height: 100%; overflow-y: hidden; width: 100%;
-	#projects { height: 100%; overflow: hidden; padding: 0 0 0 155px;
+	#projects { height: 100%; overflow: hidden; padding: 0 0 0 155px; position: relative;
 		li { height: 97%; float: left; padding-bottom: 3%; width: 1196px; }
 		.images { height: 100%; float: left; margin: 20px 10px 0 0; padding-right: 15px; overflow: auto; width: 700px;
 			li { height: auto; float: none; padding-bottom: 15px; width: auto; } 
 			img { background: white; display: block; width: 100%; }
 		}
+		li:last-child .description { border-right: none; }
 		.description { border-right: 1px solid #9f9f9f; height: 94%; float: left; margin: 3% 35px 0 0; padding-right: 35px; width: 400px; 
 			a { @include CrimsonBold(); color: #fff; 
 				&:hover { color: $textcolor; }
