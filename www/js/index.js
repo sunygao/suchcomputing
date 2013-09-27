@@ -29,49 +29,11 @@ SG.index = function () {
 
 			debug.groupEnd();
 
-			// $('#nav a').on('click', function(e) {
-			// 	e.preventDefault();
-			// 	self.showSection($(this));
-			// });
-
-			// $('#back-to-menu').on('click', function(e) {
-			// 	e.preventDefault();
-			// 	self.showMenu($(this));
-			// });
-
-			// $('#back-to-projects').on('click', function(e) {
-			// 	e.preventDefault();
-			// 	reset();
-			// });
-
-			// $('#project-list ul a').on('click', function(e) {
-			// 	e.preventDefault();
-			// 	self.showProject($(this));
-			// });
-
+			self.setWidth();
 
 		},
-		showSection: function($link) {
-			$('#main-content').show();
-			$($link.attr('href')).show();
-			$('#page-wrapper').animate({
-				top: '-100%'
-			}, 500, 'easeInSine');
-		},
-		showMenu: function() {
-			$('#page-wrapper').animate({
-				top: '0%'
-			}, 500, 'easeInSine', function() {
-				$('#main-content').hide();
-				$('#main-content section').hide();
-				reset();
-			});
-		},
-		showProject: function($link) {
-			$($link.attr('href')).show();
-			$('#projects').animate({
-				left: '-100%'
-			}, 500, 'easeInSine');
+		setWidth: function() {
+			$('#projects').css('width', ($('#projects').children().size() * $('#projects').children().outerWidth()));
 		}
 		
 	};

@@ -72,14 +72,14 @@
 								<li><a href="#americas_backyard">America\'s Backyard</a></li>
 								<li><a href="#evb">EVB.com</a></li>
 								<li><a href="#sandwich_cannon">Jimmy John\'s Sandwich Cannon</a></li>
-								<li><a href="#grilled_cheese">Grilled Cheese Reunion</a></li>
-								<li><a href="#foldables">Sunglass Hut Foldables</a></li>
+								<li><a href="#grilled_cheese">The Grilled Cheese Reunion</a></li>
+								<li><a href="#foldables">Fall Trends - Foldables</a></li>
 								<li><a href="#love_for_liz">Love For Liz</a></li>
-								<li><a href="#sgg>Sleeping Giant Glossolalia</a></li>
-								<li><a href="#black_bag">Glad Black Bag</a></li>
+								<li><a href="#sgg">Sleeping Giant Glossolalia</a></li>
+								<li><a href="#black_bag">The Wild Life</a></li>
 								<li><a href="#nextpedition">Nextpedition</a></li>
 								<li><a href="#govt_contracting">AMEX Government Contracting</a></li>
-								<li><a href="#lifecycle">Coke Zero LifeCycle</a></li>
+								<li><a href="#livecycle">Coke Zero LiveCycle</a></li>
 							</ul>';
 					} ?>
 				</li>

@@ -56,16 +56,16 @@ body { background: #313131; font-family: "Crimson Text", serif; font-weight: 400
 #menu #linked_in:hover, #menu #linked_in.linkedin_hover, #menu #linked_in.linkedin-hover { background-position: 0 -192px; }
 
 #main-content { color: #c2c2c2; height: 100%; overflow-y: hidden; width: 100%; }
-#main-content #projects { height: 100%; overflow: hidden; padding: 0 0 0 155px; width: 3000px; }
-#main-content #projects li { height: 97%; float: left; padding-bottom: 3%; }
+#main-content #projects { height: 100%; overflow: hidden; padding: 0 0 0 155px; }
+#main-content #projects li { height: 97%; float: left; padding-bottom: 3%; width: 1196px; }
 #main-content #projects .images { height: 100%; float: left; margin: 20px 10px 0 0; padding-right: 15px; overflow: auto; width: 700px; }
-#main-content #projects .images li { height: auto; float: none; padding-bottom: 15px; }
+#main-content #projects .images li { height: auto; float: none; padding-bottom: 15px; width: auto; }
 #main-content #projects .images img { background: white; display: block; width: 100%; }
-#main-content #projects .description { border-right: 1px solid #9f9f9f; height: 94%; float: left; margin: 3% 35px 0 0; padding-right: 35px; width: 490px; }
+#main-content #projects .description { border-right: 1px solid #9f9f9f; height: 94%; float: left; margin: 3% 35px 0 0; padding-right: 35px; width: 400px; }
 #main-content #projects .description a { font-family: "Crimson Text", serif; font-weight: 700; color: #fff; }
 #main-content #projects .description a:hover { color: #c2c2c2; }
 #main-content #projects .description h2 { font-family: "Crimson Text", serif; font-weight: 600; font-size: 153.9%; line-height: 130%; }
-#main-content #projects .description h3 { font-size: 93%; margin-bottom: 50px; text-transform: uppercase; }
+#main-content #projects .description h3 { display: inline-block; font-size: 93%; margin-bottom: 50px; text-transform: uppercase; }
 #main-content #projects .description h3 span { display: inline-block; margin: 0 8px; }
 #main-content #projects .description h3 a { color: #c2c2c2; display: inline-block; }
 #main-content #projects .description h3 a span { background-position: 0 -104px; width: 24px; height: 14px; cursor: pointer; display: inline-block; position: relative; margin-left: 3px; top: 3px; }
