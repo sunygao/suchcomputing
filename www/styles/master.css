@@ -41,6 +41,7 @@ a { text-decoration: none; }
 body, html, #page-wrapper, #global-header { height: 100%; }
 
 body { background: #313131; font-family: "Crimson Text", serif; font-weight: 400; font-size: 13px; }
+body ::selection { background: #6fbbda; }
 
 body, #menu { min-height: 690px; }
 

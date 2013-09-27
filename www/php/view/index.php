@@ -24,9 +24,9 @@
 			<div class="description">
 				<h2>America's Backyard</h2>
 				<h3>La Brea Bakery <span>|</span> <a href="http://labreabakery.com/americas-backyard/" target="_blank">Visit Site <span></span></a></h3>
-				<p>La Brea Bakery celebrates summer grilling with America's Backyard, a microsite featuring 6 tabletops showcasing tips, recipes, and bread pairings. Site features scrolling animations, iPad and mobile support.</p>
+				<p>La Brea Bakery celebrates summer grilling with America's Backyard, a microsite featuring 6 tabletops showcasing tips, recipes, and bread pairings. Scroll through the site on desktop or iPad and watch each section animate in, then explore the hotspots and download the recipes. The site features a simplified mobile experience for easy access to the recipes.</p>
 
-				<p>Tools: HTML, CSS transforms, Javascript, PHP</p>
+				<p>Tools: HTML, CSS transforms, Javascript, PHP, XML</p>
 			</div>
 		</li>
 
@@ -52,7 +52,7 @@
 			<div class="description">
 				<h2>EVB.com</h2>
 				<h3>Evolution Bureau <span>|</span> <a href="http://evb.com" target="_blank">Visit Site <span></span></a></h3>
-				<p>Launched in June 2012, EVB's new site showcases the Bureau's work, people and philosophy. Built on top of a custom Wordpress CMS, the site is completely responsive; it seamlessly scales to multiple desktop resolutions as well as mobile devices. It also uses HTML 5 features such as video, SVG and CSS3, with fallbacks for IE7 and 8.</p>
+				<p>Launched in summer 2012, EVB's new site showcases the Bureau's work, clients and philosophy. Built on top of a custom Wordpress CMS, the site is completely responsive; it seamlessly scales to multiple desktop resolutions as well as mobile devices. The site features a panorama of the EVB rooftop on its homepage, SVG graph animations, CSS3 animations of fog, and mobile-friendly HTML 5 video players, all with graceful degradations for IE7 and 8.</p>
 
 				<p>EVB.com was featured as the FWA's Mobile Site of the Day on <a href="http://www.thefwa.com/mobile/evolution-bureau-evb-website" target="_blank">July 2, 2012</a>.</p>
 
@@ -73,9 +73,11 @@
 			<div class="description">
 				<h2>Jimmy John's Sandwich Cannon</h2>
 				<h3>Jimmy John's</h3>
-				<p>Lorem Ipsum</p>
+				<p>Introducing the Jimmy John’s Sandwich Cannon, the only app on the market where you can launch Jimmy John's sandwiches at unsuspecting targets. Choose from 5 different sandwiches or load up a cannon of ninjas, kittens or dollar bills. Record a video of the explosion to share on Facebook and Twitter, or via email.</p>
 
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+				<p>The app's supporting Facebook tab lets you keep track of the world's greatest cannoneers. Explore each cannon and its popularity, or see a map with CSS animated hotspots showing where cannons are most frequently fired.</p>
+
+				<p>Tools: HTML, CSS transforms, CSS animations, Javascript, Facebook API</p>
 			</div>
 		</li>
 

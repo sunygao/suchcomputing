@@ -3,7 +3,9 @@ body,
 html,
 #page-wrapper,
 #global-header { height: 100%; }
-body { background: #313131; @include Crimson(); font-size: 13px; }
+body { background: #313131; @include Crimson(); font-size: 13px; 
+	::selection { background: #6fbbda; }
+}
 
 body,
 #menu { min-height: 690px; }
