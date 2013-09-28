@@ -241,7 +241,7 @@
 			</ul>
 			<div class="description">
 				<h2>Government Contracting</h2>
-				<h3>American Express</h3>
+				<h3>American Express <span>|</span> <a href="http://www.openforum.com/governmentcontracting" target="_blank">Visit Site <span></span></a></h3>
 				<p>Part of American Express Open Forum, this site provides information for small business owners considering whether government contracting is right for them. Learn the basics of government contracting, register your business.</p>
 
 				<p>Tools: HTML, CSS, Javascript, ASP.NET</p>
@@ -264,9 +264,11 @@
 			<div class="description">
 				<h2>LiveCycle</h2>
 				<h3>Coke Zero</h3>
-				<p>Lorem Ipsum</p>
+				<p>In anticipation of the release of the Tron: Legacy, CP+B and Coke Zero has developed a GPS-based mobile game called LiveCycle, a free app for iPhone or Android. Players move around in real space to create their Light Path, building a wall for oppontents to crash into, and avoiding the Light Paths of rivals.</p>
 
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+				<p>The app's parallax scrolling site features supplmentary materials from the film.</p>
+
+				<p>Tools: HTML 5 video, CSS animations, Javascript</p>
 			</div>
 		</li>
 
