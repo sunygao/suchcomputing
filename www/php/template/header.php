@@ -75,8 +75,8 @@
 								<li><a href="#grilled_cheese">The Grilled Cheese Reunion</a></li>
 								<li><a href="#foldables">Fall Trends - Foldables</a></li>
 								<li><a href="#love_for_liz">Love For Liz</a></li>
-								<li><a href="#sgg">Sleeping Giant Glossolalia</a></li>
 								<li><a href="#black_bag">The Wild Life</a></li>
+								<li><a href="#sgg">Sleeping Giant Glossolalia</a></li>
 								<li><a href="#nextpedition">Nextpedition</a></li>
 								<li><a href="#govt_contracting">AMEX Government Contracting</a></li>
 								<li><a href="#livecycle">Coke Zero LiveCycle</a></li>

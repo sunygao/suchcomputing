@@ -93,14 +93,18 @@
 				<li>
 					<img src="media/images/projects/grilled_cheese/grilledcheese_gallery.jpg" />
 				</li>
-				
+				<li>
+					<img src="media/images/projects/grilled_cheese/grilledcheese_opened.jpg" />
+				</li>
 			</ul>
 			<div class="description">
 				<h2>The Grilled Cheese Reunion</h2>
 				<h3>La Brea Bakery</h3>
-				<p>Lorem Ipsum</p>
+				<p>To celebrate grilled cheese month, La Brea Bakery launched The Grilled Cheese Reunion in April 2013. Tell La Brea Bakery your grilled cheese story, and you could win a chance to go home.</p>
 
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+				<p>The site's homepage pans to different sections of a "scrapbook", and the images spread apart to display the submission form. Users can also view a gallery of previous submissions and recipes. Open up a gallery item and it flips open like an actual photograph.</p>
+
+				<p>Tools: CSS animations, CSS transitions, CSS transforms, HTML, Javascript, PHP</p>
 			</div>
 		</li>
 
@@ -123,9 +127,9 @@
 			<div class="description">
 				<h2>Fall Trends - Foldables</h2>
 				<h3>Sunglass Hut <span>|</span> <a href="http://www.sunglasshut.com/webapp/wcs/stores/servlet/Experience?mpe_id=117269&sid=Nav-FallTrend2013-US-09202013&catalogId=10101&evtype=CpgnClick&intv_id=52801&experienceName=FallTrend2013&langId=-1&storeId=10152&ddkey=http:ClickInfo" target="_blank">Visit Site <span></span></a></h3>
-				<p>Lorem Ipsum</p>
+				<p>Sunglass Hut presents the Foldables collection, shades that transform to fit in the smallest of bags and pockets. Instead of a traditional product demo, we used responsive design to demonstrate the glasses' folding capabilities. Resize your browser to see the fold in action.</p>
 
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+				<p>Tools: Responsive design, HTML, Javascript</p>
 			</div>
 		</li>
 
@@ -142,28 +146,9 @@
 			<div class="description">
 				<h2>Love For Liz</h2>
 				<h3>EVB</h3>
-				<p>Lorem Ipsum</p>
+				<p>When EVB's receptionist Liz was diagnosed with cancer in November 2012, the agency wanted a simple way to show her that we were thinking of her. So, we created a site where users can record a video message through YouTube's upload API, view other people's messages, and share stories of our beloved Liz.</p>
 
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
-			</div>
-		</li>
-
-		<!--SGG -->
-		<li id="sgg">
-			<ul class="images">
-				<li>
-					<img src="media/images/projects/sgg/sgg_home.jpg" />
-				</li>	
-				<li>
-					<img src="media/images/projects/sgg/sgg_discog.jpg" />
-				</li>	
-			</ul>
-			<div class="description">
-				<h2>Sleeping Giant Glossolalia</h2>
-				<h3>SGG <span>|</span> <a href="http://www.sleepinggiantglossolalia.com" target="_blank">Visit Site <span></span></a></h3>
-				<p>Lorem Ipsum</p>
-
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+				<p>Tools: YouTube API, HTML, CSS, Javascript, PHP</p>
 			</div>
 		</li>
 
@@ -193,11 +178,31 @@
 			<div class="description">
 				<h2>The Wild Life</h2>
 				<h3>Glad</h3>
-				<p>Lorem Ipsum</p>
+				<p>EVB worked with Glad to develop this dynamic video experience for Facebook that featured a real-life “Animal House,” replete with monkeys, bears, beavers and ducks with one thing in common — they are oblivious to the messes they make, which is not unlike the animals that a lot of us live with. Choose your messiest facebook friend to star in your own Wild Life video. Pick a messy scenario, give it a title, and choose a location, and a video will be generated with your customizations.</p>
 
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+				<p>Tools: Facebook API, Javascript, HTML, Flash</p>
 			</div>
 		</li>
+
+		<!--SGG -->
+		<li id="sgg">
+			<ul class="images">
+				<li>
+					<img src="media/images/projects/sgg/sgg_home.jpg" />
+				</li>	
+				<li>
+					<img src="media/images/projects/sgg/sgg_discog.jpg" />
+				</li>	
+			</ul>
+			<div class="description">
+				<h2>Sleeping Giant Glossolalia</h2>
+				<h3>SGG <span>|</span> <a href="http://www.sleepinggiantglossolalia.com" target="_blank">Visit Site <span></span></a></h3>
+				<p>Record label Sleeping Giant Glossolalia needed an easy to maintain site to showcase their latest news and releases, contact information, and discography. Built on top of a Wordpress CMS, the site is easy to update and browse.</p>
+
+				<p>Tools: HTML, Javascript, PHP, Wordpress</p>
+			</div>
+		</li>
+
 
 		<!--Nextpedition-->
 		<li id="nextpedition">
@@ -216,9 +221,9 @@
 			<div class="description">
 				<h2>Nextpedition</h2>
 				<h3>American Express Travel</h3>
-				<p>Lorem Ipsum</p>
+				<p>In April 2011, American Express Travel launched Nextpedition, a mystery trip where the destination and itinerary are unknown until the trip begins and is revealed day by day via a customized Smartphone. Activities determined based on the traveller's answers to a quiz on Nextpedition's website where they can also explore different travel types, see testimonials, and view sample itineraries.</p>
 
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+				<p>Tools: HTML 5 video, CSS transitions, Javascript, ASP.NET</p>
 			</div>
 		</li>
 
@@ -237,9 +242,9 @@
 			<div class="description">
 				<h2>Government Contracting</h2>
 				<h3>American Express</h3>
-				<p>Lorem Ipsum</p>
+				<p>Part of American Express Open Forum, this site provides information for small business owners considering whether government contracting is right for them. Learn the basics of government contracting, register your business.</p>
 
-				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+				<p>Tools: HTML, CSS, Javascript, ASP.NET</p>
 			</div>
 		</li>
 
@@ -255,8 +260,6 @@
 				<li>
 					<img src="media/images/projects/livecycle/coke3.jpg" />
 				</li>	
-				
-				
 			</ul>
 			<div class="description">
 				<h2>LiveCycle</h2>
