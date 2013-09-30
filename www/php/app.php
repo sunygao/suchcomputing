@@ -39,6 +39,7 @@ class App{
 	private function _find_controller(){
 		session_start();
 		require_once DIR_SYS.'/Config.php';
+		require_once DIR_MDL.'/Content.php';
 		include DIR_SYS.'/router.php';
 		include DIR_SYS.'/config.routes.php';
 		if ($ctrl = Router::controller()) {

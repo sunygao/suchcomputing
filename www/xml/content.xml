@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+
+
+	<item>
+		<id>americas_backyard</id>
+		<images>
+			<image>media/images/projects/americasbackyard/homepage_desktop.jpg</image>
+			<image>media/images/projects/americasbackyard/homepage_desktop_opening.jpg</image>
+			<image>media/images/projects/americasbackyard/southbbq_intro.jpg</image>
+			<image>media/images/projects/americasbackyard/open_hotspot.jpg</image>
+			<image>media/images/projects/americasbackyard/iphone.jpg</image>
+		</images>
+
+		<title>America's Backyard</title>
+		<client>La Brea Bakery</client>
+		<url>http://labreabakery.com/americas-backyard/</url>
+
+		<description>
+			<![CDATA[
+			<p>La Brea Bakery celebrates summer grilling with America's Backyard, a microsite featuring 6 tabletops showcasing tips, recipes, and bread pairings. Scroll through the site on desktop or iPad and watch each section animate in, then explore the hotspots and download the recipes. The site features a simplified mobile experience for easy access to the recipes.</p>
+
+			<p>Tools: HTML, CSS transforms, Javascript, PHP, XML</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
+		<id>evb</id>
+		<images>
+			<image>media/images/projects/evb/evb_home.jpg</image>
+			<image>media/images/projects/evb/evb_clients.jpg</image>
+			<image>media/images/projects/evb/evb_work.jpg</image>
+			<image>media/images/projects/evb/evb_about.jpg</image>
+			<image>media/images/projects/evb/evb_mobile.jpg</image>
+		</images>
+
+		<title>EVB.com</title>
+		<client>EVB</client>
+		<url>http://evb.com</url>
+
+		<description>
+			<![CDATA[
+				<p>Launched in summer 2012, EVB's new site showcases the Bureau's work, clients and philosophy. Built on top of a custom Wordpress CMS, the site is completely responsive; it seamlessly scales to multiple desktop resolutions as well as mobile devices. The site features a panorama of the EVB rooftop on its homepage, SVG graph animations, CSS3 animations of fog, and mobile-friendly HTML 5 video players, all with graceful degradations for IE7 and 8.</p>
+
+				<p>EVB.com was featured as the FWA's Mobile Site of the Day on <a href="http://www.thefwa.com/mobile/evolution-bureau-evb-website" target="_blank">July 2, 2012</a>.</p>
+
+				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
+		<id>sandwich_cannon</id>
+		<images>
+			<image>media/images/projects/jimmyjohns/sandwichcannon.jpg</image>
+		</images>
+
+		<title>Jimmy John's Sandwich Cannon</title>
+		<client>Jimmy John's</client>
+
+		<description>
+			<![CDATA[
+				<p>Introducing the Jimmy John’s Sandwich Cannon, the only app on the market where you can launch Jimmy John's sandwiches at unsuspecting targets. Choose from 5 different sandwiches or load up a cannon of ninjas, kittens or dollar bills. Record a video of the explosion to share on Facebook and Twitter, or via email.</p>
+
+				<p>The app's supporting Facebook tab lets you keep track of the world's greatest cannoneers. Explore each cannon and its popularity, or see a map with CSS animated hotspots showing where cannons are most frequently fired.</p>
+
+				<p>Tools: HTML, CSS transforms, CSS animations, Javascript, Facebook API</p>
+			]]>
+		</description>
+	</item>
+
+
+	<item>
+		<id>grilled_cheese</id>
+		<images>
+			<image>media/images/projects/grilled_cheese/grilledcheese_home.jpg</image>
+			<image>media/images/projects/grilled_cheese/grilledcheese_submit.jpg</image>
+			<image>media/images/projects/grilled_cheese/grilledcheese_gallery.jpg</image>
+			<image>media/images/projects/grilled_cheese/grilledcheese_opened.jpg</image>
+
+		</images>
+
+		<title>The Grilled Cheese Reunion</title>
+		<client>La Brea Bakery</client>
+
+		<description>
+			<![CDATA[
+					<p>To celebrate grilled cheese month, La Brea Bakery launched The Grilled Cheese Reunion in April 2013. Tell La Brea Bakery your grilled cheese story, and you could win a chance to go home.</p>
+
+				<p>The site's homepage pans to different sections of a "scrapbook", and the images spread apart to display the submission form. Users can also view a gallery of previous submissions and recipes. Open up a gallery item and it flips open like an actual photograph.</p>
+
+				<p>Tools: CSS animations, CSS transitions, CSS transforms, HTML, Javascript, PHP</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
+		<id>foldables</id>
+		<images>
+			<image>media/images/projects/foldables/sgh_1.jpg</image>
+			<image>media/images/projects/foldables/sgh_2.jpg</image>
+			<image>media/images/projects/foldables/sgh_3.jpg</image>
+			<image>media/images/projects/foldables/sgh_4.jpg</image>
+
+		</images>
+
+		<title>Fall Trends - Foldables</title>
+		<client>Sunglass Hut</client>
+		<url>http://www.sunglasshut.com/webapp/wcs/stores/servlet/Experience?mpe_id=117269&amp;sid=Nav-FallTrend2013-US-09202013&amp;catalogId=10101&amp;evtype=CpgnClick&amp;intv_id=52801&amp;experienceName=FallTrend2013&amp;langId=-1&amp;storeId=10152&amp;ddkey=http:ClickInfo</url>
+
+		<description>
+			<![CDATA[
+				<p>Sunglass Hut presents the Foldables collection, shades that transform to fit in the smallest of bags and pockets. Instead of a traditional product demo, we used responsive design to demonstrate the glasses' folding capabilities. Resize your browser to see the fold in action.</p>
+
+				<p>Tools: Responsive design, HTML, Javascript</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
+		<id>love_for_liz</id>
+		<images>
+			<image>media/images/projects/loveforliz/loveforliz_home.jpg</image>
+			<image>media/images/projects/loveforliz/loveforliz_record.jpg</image>
+		</images>
+
+		<title>Love For Liz</title>
+		<client>EVB</client>
+
+		<description>
+			<![CDATA[
+					<p>When EVB's receptionist Liz was diagnosed with cancer in November 2012, the agency wanted a simple way to show her that we were thinking of her. So, we created a site where users can record a video message through YouTube's upload API, view other people's messages, and share stories of our beloved Liz.</p>
+
+				<p>Tools: YouTube API, HTML, CSS, Javascript, PHP</p>
+			]]>
+		</description>
+	</item>
+
+
+	<item>
+		<id>black_bag</id>
+		<images>
+			<image>media/images/projects/blackbag/glad_1.jpg</image>
+			<image>media/images/projects/blackbag/glad_2.jpg</image>
+			<image>media/images/projects/blackbag/glad_3.jpg</image>
+			<image>media/images/projects/blackbag/glad_4.jpg</image>
+			<image>media/images/projects/blackbag/glad_5.jpg</image>
+			<image>media/images/projects/blackbag/glad_6.jpg</image>
+		</images>
+
+		<title>The Wild Life</title>
+		<client>Glad</client>
+
+		<description>
+			<![CDATA[
+				<p>EVB worked with Glad to develop this dynamic video experience for Facebook that featured a real-life “Animal House,” replete with monkeys, bears, beavers and ducks with one thing in common — they are oblivious to the messes they make, which is not unlike the animals that a lot of us live with. Choose your messiest facebook friend to star in your own Wild Life video. Pick a messy scenario, give it a title, and choose a location, and a video will be generated with your customizations.</p>
+
+				<p>Tools: Facebook API, Javascript, HTML, Flash</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
+		<id>sgg</id>
+		<images>
+			<image>media/images/projects/sgg/sgg_home.jpg</image>
+			<image>media/images/projects/sgg/sgg_discog.jpg</image>
+		</images>
+
+		<title>Sleeping Giant Glossolalia</title>
+		<client>SGG</client>
+		<url>http://www.sleepinggiantglossolalia.com</url>
+		<description>
+			<![CDATA[
+				<p>Record label Sleeping Giant Glossolalia needed an easy to maintain site to showcase their latest news and releases, contact information, and discography. Built on top of a Wordpress CMS, the site is easy to update and browse.</p>
+
+				<p>Tools: HTML, Javascript, PHP, Wordpress</p>
+			]]>
+		</description>
+	</item>
+
+
+	<item>
+		<id>nextpedition</id>
+		<images>
+			<image>media/images/projects/nextpedition/nextpedition1.jpg</image>
+			<image>media/images/projects/nextpedition/nextpedition2.jpg</image>
+			<image>media/images/projects/nextpedition/nextpedition3.jpg</image>
+		</images>
+
+		<title>Nextpedition</title>
+		<client>American Express Travel</client>
+		<description>
+			<![CDATA[
+				<p>In April 2011, American Express Travel launched Nextpedition, a mystery trip where the destination and itinerary are unknown until the trip begins and is revealed day by day via a customized Smartphone. Activities determined based on the traveller's answers to a quiz on Nextpedition's website where they can also explore different travel types, see testimonials, and view sample itineraries.</p>
+
+				<p>Tools: HTML 5 video, CSS transitions, Javascript, ASP.NET</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
+		<id>govt_contracting</id>
+		<images>
+			<image>media/images/projects/govt_contracting/govtcontracting_home.jpg</image>
+			<image>media/images/projects/govt_contracting/govtcontracting_lesson.jpg</image>
+		</images>
+
+		<title>Nextpedition</title>
+		<client>American Express Travel</client>
+		<description>
+			<![CDATA[
+				<p>Part of American Express Open Forum, this site provides information for small business owners considering whether government contracting is right for them. Learn the basics of government contracting, register your business.</p>
+
+				<p>Tools: HTML, CSS, Javascript, ASP.NET</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
+		<id>livecycle</id>
+		<images>
+			<image>media/images/projects/livecycle/coke1.jpg</image>
+			<image>media/images/projects/livecycle/coke2.jpg</image>
+			<image>media/images/projects/livecycle/coke3.jpg</image>
+		</images>
+
+		<title>LiveCycle</title>
+		<client>Coke Zero</client>
+		<description>
+			<![CDATA[
+				<p>In anticipation of the release of the Tron: Legacy, CP+B and Coke Zero has developed a GPS-based mobile game called LiveCycle, a free app for iPhone or Android. Players move around in real space to create their Light Path, building a wall for oppontents to crash into, and avoiding the Light Paths of rivals.</p>
+
+				<p>The app's parallax scrolling site features supplmentary materials from the film.</p>
+
+				<p>Tools: HTML 5 video, CSS animations, Javascript</p>
+			]]>
+		</description>
+	</item>
+
+</items>
+

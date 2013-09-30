@@ -31,6 +31,8 @@ SG.index = function () {
 
 			self.setWidth();
 
+			$("img.lazy").lazyload();
+
 			$('#project_list a').on('click', function(e) {
 				e.preventDefault();
 				var pos = $($(this).attr('href')).position().left - parseFloat($('#projects').css('paddingLeft').split('px')[0]);
