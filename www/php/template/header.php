@@ -90,7 +90,7 @@
 					<a href="/about">About</a>
 				</li>
 				<li>
-					<a href="#todo">Resume</a>
+					<a href="media/pdf/sunygao_resume.pdf" target="_blank">Resume</a>
 				</li>
 				<li id="contact">
 					<a href="mailto:suny.gao@gmail.com" id="email">Email</a>
