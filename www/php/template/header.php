@@ -59,6 +59,7 @@
 <body class="<?php if (isset($class)) echo $class; ?>">
 	<?php 
 		$items = Content::getInstance()->getItems();
+		//$item = $items -> item;
 	?>
 	<div id="page-wrapper">
 		<header id="menu">
@@ -69,7 +70,8 @@
 				</li> -->
 				<li>
 					<a href="./">Projects</a>
-					<?php if (isset($settings->page) && $settings->page == 'home') {
+
+					<?php if (isset($settings->page) && $settings->page == 'Home') {
 						$links = '';
 
 						foreach($items as $item) {

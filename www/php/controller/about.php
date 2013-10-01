@@ -1,6 +1,6 @@
 <?php
 
-$settings->setPage("Your Title Here");
+$settings->setPage("About");
 $class = "about"; 
 $content = 'SG example content for about';
 

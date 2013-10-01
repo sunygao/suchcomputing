@@ -154,7 +154,7 @@
 
 		<description>
 			<![CDATA[
-				<p>EVB worked with Glad to develop this dynamic video experience for Facebook that featured a real-life “Animal House,” replete with monkeys, bears, beavers and ducks with one thing in common — they are oblivious to the messes they make, which is not unlike the animals that a lot of us live with. Choose your messiest facebook friend to star in your own Wild Life video. Pick a messy scenario, give it a title, and choose a location, and a video will be generated with your customizations.</p>
+				<p>EVB worked with Glad to develop this dynamic video experience for Facebook that featured a real-life “Animal House,” replete with monkeys, bears, beavers and ducks with one thing in common — they are oblivious to the messes they make, which is not unlike the animals that a lot of us live with. Choose your messiest Facebook friend to star in your own Wild Life video. Pick a messy scenario, give it a title, and choose a location, and a unique video will be generated with your customizations.</p>
 
 				<p>Tools: Facebook API, Javascript, HTML, Flash</p>
 			]]>
@@ -173,7 +173,7 @@
 		<url>http://www.sleepinggiantglossolalia.com</url>
 		<description>
 			<![CDATA[
-				<p>Record label Sleeping Giant Glossolalia needed an easy to maintain site to showcase their latest news and releases, contact information, and discography. Built on top of a Wordpress CMS, the site is easy to update and browse.</p>
+				<p>Record label Sleeping Giant Glossolalia needed a website to showcase their latest news and releases, contact information, and discography. Built on top of a Wordpress CMS, the site is easy to update and maintain.</p>
 
 				<p>Tools: HTML, Javascript, PHP, Wordpress</p>
 			]]>
@@ -211,7 +211,7 @@
 		<client>American Express Travel</client>
 		<description>
 			<![CDATA[
-				<p>Part of American Express Open Forum, this site provides information for small business owners considering whether government contracting is right for them. Learn the basics of government contracting, register your business.</p>
+				<p>Part of American Express Open Forum, this site provides information for small business owners considering whether government contracting is right for them. Learn the basics of government contracting and register your business.</p>
 
 				<p>Tools: HTML, CSS, Javascript, ASP.NET</p>
 			]]>
@@ -230,9 +230,9 @@
 		<client>Coke Zero</client>
 		<description>
 			<![CDATA[
-				<p>In anticipation of the release of the Tron: Legacy, CP+B and Coke Zero has developed a GPS-based mobile game called LiveCycle, a free app for iPhone or Android. Players move around in real space to create their Light Path, building a wall for oppontents to crash into, and avoiding the Light Paths of rivals.</p>
+				<p>In anticipation of the release of the Tron: Legacy, CP+B and Coke Zero developed a GPS-based mobile game called LiveCycle, a free app for iPhone or Android. Players move around in real space to create their Light Path, building a wall for oppontents to crash into, and avoiding the Light Paths of rivals.</p>
 
-				<p>The app's parallax scrolling site features supplmentary materials from the film.</p>
+				<p>The app's website features parallax scrolling, HTML 5 video, and supplmentary materials from the film.</p>
 
 				<p>Tools: HTML 5 video, CSS animations, Javascript</p>
 			]]>
