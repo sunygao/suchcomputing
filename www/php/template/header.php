@@ -62,41 +62,42 @@
 		//$item = $items -> item;
 	?>
 	<div id="page-wrapper">
-		<header id="menu">
-			<h1><a href="./">Suny Gao</a></h1>
-			<ul id="nav">
-				<!-- <li id="back_to_menu">
-					<a href="#menu">Menu</a>
-				</li> -->
-				<li>
-					<a href="./">Projects</a>
-
-					<?php if (isset($settings->page) && $settings->page == 'Home') {
-						$links = '';
-
-						foreach($items as $item) {
-							$links .= '<li>
-								<a href="#'. $item->id .'">
-									' . $item -> title . '
-								</a>
-							</li>';
-						} 
-	
-						echo 
-							'<ul id="project_list">' . $links . '</ul>';
-					} ?>
-				</li>
-				<li>
-					<a href="/about">About</a>
-				</li>
-				<li>
-					<a href="media/pdf/sunygao_resume.pdf" target="_blank">Resume</a>
-				</li>
-				<li id="contact">
-					<a href="mailto:suny.gao@gmail.com" id="email">Email</a>
-					<a href="http://lnkd.in/bhzhDQt" target="_blank" id="linked_in">LinkedIn</a>
-				</li>
-			</ul>
-		</header>
-
 		<main id="main-content" role="main">
+			<header id="menu">
+				<h1><a href="./">Suny Gao</a></h1>
+				<ul id="nav">
+					<!-- <li id="back_to_menu">
+						<a href="#menu">Menu</a>
+					</li> -->
+					<li>
+						<a href="./">Projects</a>
+
+						<?php if (isset($settings->page) && $settings->page == 'Home') {
+							$links = '';
+
+							foreach($items as $item) {
+								$links .= '<li>
+									<a href="#'. $item->id .'">
+										' . $item -> title . '
+									</a>
+								</li>';
+							} 
+		
+							echo 
+								'<ul id="project_list">' . $links . '</ul>';
+						} ?>
+					</li>
+					<li>
+						<a href="/about">About</a>
+					</li>
+					<li>
+						<a href="media/pdf/sunygao_resume.pdf" target="_blank">Resume</a>
+					</li>
+					<li id="contact">
+						<a href="mailto:suny.gao@gmail.com" id="email">Email</a>
+						<a href="http://lnkd.in/bhzhDQt" target="_blank" id="linked_in">LinkedIn</a>
+					</li>
+				</ul>
+			</header>
+
+

@@ -40,16 +40,20 @@ a { font-family: "Crimson Text", serif; font-weight: 700; color: #fff; text-deco
 
 body, html, #page-wrapper, #global-header { height: 100%; }
 
-body { background: #313131; font-family: "Crimson Text", serif; font-weight: 400; font-size: 13px; }
+body { background: #313131; font-family: "Crimson Text", serif; font-weight: 400; font-size: 13px; height: 100%; /*overflow-x: auto; overflow-y: hidden;*/ }
 body ::selection { background: #6fbbda; }
 
-body, #menu { min-height: 690px; }
+/*body,
+#menu { min-height: 640px; }
+.ie7 body,
+.ie7 #menu { min-height: 700px; }*/
+#page-wrapper { position: relative; }
 
-#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; padding: 0px 10px; z-index: 2; position: absolute; width: 110px; }
+#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; overflow: scroll; overflow-x: hidden; padding: 0px 10px; position: fixed; width: 110px; z-index: 2; }
 #menu h1 a { background-position: 0 0; width: 110px; height: 95px; cursor: pointer; margin: 20px auto 0; }
-#menu #nav { text-align: right; }
-#menu #nav a { font-family: "Crimson Text", serif; font-weight: 600; display: block; font-size: 123%; color: #242424; margin-top: 25px; }
-#menu #nav li li a { color: #777; font-size: 93%; margin-top: 15px; line-height: 130%; }
+#menu #nav { height: 520px; text-align: right; }
+#menu #nav a { font-family: "Crimson Text", serif; font-weight: 600; display: block; font-size: 123%; color: #242424; margin-top: 20px; }
+#menu #nav li li a { color: #777; font-size: 93%; margin-top: 12px; line-height: 130%; }
 #menu #nav li li a:hover { color: #242424; }
 #menu #back_to_menu a { background: transparent url(../media/images/bkg_menu.png) repeat; display: block; height: 80px; left: 160px; margin-top: -40px; top: 50%; position: absolute; text-align: left; text-indent: -9999px; width: 33px; }
 #menu #contact { float: right; width: 65px; }
@@ -58,10 +62,11 @@ body, #menu { min-height: 690px; }
 #menu #linked_in { background-position: 0 -163px; width: 26px; height: 20px; cursor: pointer; float: right; }
 #menu #linked_in:hover, #menu #linked_in.linkedin_hover, #menu #linked_in.linkedin-hover { background-position: 0 -183px; }
 
-#main-content { color: #c2c2c2; height: 100%; overflow-y: hidden; width: 100%; }
+#main-content { color: #c2c2c2; height: 100%; /*overflow-y: hidden;*/ /*overflow-x: scroll;*/ position: absolute; /* width: 100%;*/ }
 #main-content #projects { height: 100%; overflow: hidden; padding: 0 0 0 155px; position: relative; }
+#main-content #projects .ie8 { overflow: visible; }
 #main-content #projects li { height: 97%; float: left; padding-bottom: 3%; width: 1196px; }
-#main-content #projects .images { height: 100%; float: left; margin: 20px 10px 0 0; padding-right: 15px; overflow: auto; width: 700px; }
+#main-content #projects .images { height: 100%; float: left; margin: 20px 10px 0 0; padding-right: 15px; overflow: auto; overflow-x: hidden; width: 700px; }
 #main-content #projects .images li { height: auto; float: none; padding-bottom: 15px; width: auto; }
 #main-content #projects .images img { background: white; display: block; width: 100%; }
 #main-content #projects li:last-child .description { border-right: none; }
@@ -79,9 +84,10 @@ body, #menu { min-height: 690px; }
 #main-content #projects .description p { font-size: 108%; line-height: 140%; margin-bottom: 15px; }
 
 .about { min-height: 0px; }
-.about #menu { min-height: 0px; }
-.about #main-content { height: auto; padding: 80px 0 0 155px; position: relative; width: 700px; }
-.about h2 { font-family: "Crimson Text", serif; font-weight: 700; font-size: 260%; letter-spacing: 1px; margin-bottom: 21px; }
+.about #menu { overflow: hidden; }
+.about #menu #nav { height: auto; }
+.about #main-content { height: auto; overflow: hidden; padding: 0 0 0 155px; width: 700px; }
+.about h2 { font-family: "Crimson Text", serif; font-weight: 700; font-size: 260%; letter-spacing: 1px; margin-bottom: 21px; padding-top: 80px; }
 .about p { font-size: 126%; line-height: 160%; margin-bottom: 30px; }
 
 /*---MOBILE---*/
@@ -95,14 +101,16 @@ body, #menu { min-height: 690px; }
 .mobile #menu #contact a { margin-top: 18px; width: 20px; }
 .mobile #menu #contact #email { background: url(../media/images/mobile/mail.png) no-repeat; margin-right: 20px; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
 .mobile #menu #contact #linked_in { background: url(../media/images/mobile/linkedin.png) no-repeat; margin-left: 0; margin-right: 0; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
-.mobile #main-content { display: block; margin: 0 auto; padding: 80px 0 0; position: relative; width: 90%; }
-.mobile #main-content #projects { height: auto; padding: 0; }
+.mobile #main-content { display: block; margin: 0 auto; position: relative; width: 90%; }
+.mobile #main-content #projects { height: auto; padding: 80px 0 0; }
 .mobile #main-content #projects li { height: auto; float: none; width: 100%; }
 .mobile #main-content #projects li img { display: block; width: 100%; }
 .mobile #main-content #projects li .description { border-right: none; border-bottom: 1px dotted #9f9f9f; float: none; height: auto; margin: 3% auto 6%; padding: 0 0 6%; width: auto; }
 .mobile #main-content #projects li .description h2, .mobile #main-content #projects li .description h3 { margin-bottom: 10px; }
 .mobile #main-content #projects li .description h2 a span, .mobile #main-content #projects li .description h3 a span { background: url(../media/images/mobile/arrow.png); -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
 .mobile #main-content #projects li:last-child .description { border: none; }
+
+.mobile.about #main-content { padding: 0; }
 
 .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.75); z-index: 998; }
 
