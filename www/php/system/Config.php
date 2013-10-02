@@ -25,7 +25,7 @@ class Config {
 	// update these:
 	var $title = "Suny Gao";
 	var $twitter = "@secretsuny";
-	var $description = "This is an example of description copy. Please change me!";
+	var $description = "Suny Gao, interactive developer";
 
 	var $validation = true;
 	var $environment;
@@ -39,7 +39,7 @@ class Config {
 	var $use_min;
 	var $debug;
 	var $server_name;
-	var $analytics_id = "%google_id%";
+	var $analytics_id = "UA-24492124-1";
 	var $protocol;
 	var $facebook_app_id;
 	var $page;
