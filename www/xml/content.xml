@@ -11,6 +11,7 @@
 			<image>media/images/projects/americasbackyard/open_hotspot.jpg</image>
 			<image>media/images/projects/americasbackyard/iphone.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/americasbackyard/mobile.jpg</mobile_image>
 
 		<title>America's Backyard</title>
 		<client>La Brea Bakery</client>
@@ -34,6 +35,7 @@
 			<image>media/images/projects/evb/evb_about.jpg</image>
 			<image>media/images/projects/evb/evb_mobile.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/evb/mobile.jpg</mobile_image>
 
 		<title>EVB.com</title>
 		<client>EVB</client>
@@ -55,6 +57,7 @@
 		<images>
 			<image>media/images/projects/jimmyjohns/sandwichcannon.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/jimmyjohns/mobile.jpg</mobile_image>
 
 		<title>Jimmy John's Sandwich Cannon</title>
 		<client>Jimmy John's</client>
@@ -80,6 +83,7 @@
 			<image>media/images/projects/grilled_cheese/grilledcheese_opened.jpg</image>
 
 		</images>
+		<mobile_image>media/images/projects/grilled_cheese/mobile.jpg</mobile_image>
 
 		<title>The Grilled Cheese Reunion</title>
 		<client>La Brea Bakery</client>
@@ -104,6 +108,7 @@
 			<image>media/images/projects/foldables/sgh_4.jpg</image>
 
 		</images>
+		<mobile_image>media/images/projects/foldables/mobile.jpg</mobile_image>
 
 		<title>Fall Trends - Foldables</title>
 		<client>Sunglass Hut</client>
@@ -124,6 +129,7 @@
 			<image>media/images/projects/loveforliz/loveforliz_home.jpg</image>
 			<image>media/images/projects/loveforliz/loveforliz_record.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/loveforliz/mobile.jpg</mobile_image>
 
 		<title>Love For Liz</title>
 		<client>EVB</client>
@@ -148,6 +154,7 @@
 			<image>media/images/projects/blackbag/glad_5.jpg</image>
 			<image>media/images/projects/blackbag/glad_6.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/blackbag/mobile.jpg</mobile_image>
 
 		<title>The Wild Life</title>
 		<client>Glad</client>
@@ -167,6 +174,7 @@
 			<image>media/images/projects/sgg/sgg_home.jpg</image>
 			<image>media/images/projects/sgg/sgg_discog.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/sgg/mobile.jpg</mobile_image>
 
 		<title>Sleeping Giant Glossolalia</title>
 		<client>SGG</client>
@@ -188,6 +196,7 @@
 			<image>media/images/projects/nextpedition/nextpedition2.jpg</image>
 			<image>media/images/projects/nextpedition/nextpedition3.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/nextpedition/mobile.jpg</mobile_image>
 
 		<title>Nextpedition</title>
 		<client>American Express Travel</client>
@@ -206,9 +215,11 @@
 			<image>media/images/projects/govt_contracting/govtcontracting_home.jpg</image>
 			<image>media/images/projects/govt_contracting/govtcontracting_lesson.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/govt_contracting/mobile.jpg</mobile_image>
 
-		<title>Nextpedition</title>
-		<client>American Express Travel</client>
+		<title>AMEX Government Contracting</title>
+		<client>American Express</client>
+		<url>http://www.openforum.com/governmentcontracting</url>
 		<description>
 			<![CDATA[
 				<p>Part of American Express Open Forum, this site provides information for small business owners considering whether government contracting is right for them. Learn the basics of government contracting and register your business.</p>
@@ -225,6 +236,7 @@
 			<image>media/images/projects/livecycle/coke2.jpg</image>
 			<image>media/images/projects/livecycle/coke3.jpg</image>
 		</images>
+		<mobile_image>media/images/projects/livecycle/coke1.jpg</mobile_image>
 
 		<title>LiveCycle</title>
 		<client>Coke Zero</client>

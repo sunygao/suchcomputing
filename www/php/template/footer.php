@@ -1,8 +1,4 @@
 		</main><!-- eof #main-content -->
-
-		<footer id="global-footer">
-
-		</footer>
 	</div>
 	<!--[if lt IE 7 ]>
 	<script src="/js/plugins/dd_belatedpng.js"></script>
@@ -43,15 +39,19 @@
 			<script src="/js/modal.js" type="text/javascript" charset="utf-8"></script>
 			<script src="/js/index.js" type="text/javascript" charset="utf-8"></script>
 			<script src="/js/about.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/js/mobile.js" type="text/javascript" charset="utf-8"></script>
 		<!-- END: app -->
 		<!-- END: DEV javascript -->
 	<?php } ?>
 
 	<script type="text/javascript">	
 		<?php 
+
 			if (defined('URI_PART_0')) {
 				$nm_space = str_replace("-", "", URI_PART_0);
 				echo "SG.main.queue(SG.".$nm_space.".init);";
+			} else if ($class=='mobile') {
+				echo "SG.main.queue(SG.mobile.init);";
 			} else {
 				echo "SG.main.queue(SG.index.init);";
 			}

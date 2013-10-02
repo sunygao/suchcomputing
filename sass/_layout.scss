@@ -45,7 +45,7 @@ $textcolor: #c2c2c2;
 			img { background: white; display: block; width: 100%; }
 		}
 		li:last-child .description { border-right: none; }
-		.description { border-right: 1px solid #9f9f9f; height: 94%; float: left; margin: 3% 35px 0 0; padding-right: 35px; width: 400px; 
+		.description { border-right: 1px dotted #9f9f9f; height: 94%; float: left; margin: 3% 35px 0 0; padding-right: 35px; width: 400px; 
 			a { @include CrimsonBold(); color: #fff; 
 				&:hover { color: $textcolor; }
 			}
@@ -71,3 +71,54 @@ $textcolor: #c2c2c2;
 	p { font-size: 126%; line-height: 160%; margin-bottom: 30px; }
 }
 
+
+/*---MOBILE---*/
+.mobile,
+.mobile #page-wrapper,
+.mobile #global-header,
+.mobile #menu { height: auto; min-height: 0px; }
+.mobile {
+	#menu { height: 50px; padding: 0px; position: fixed; width: 100%;
+		h1 a { background: url(../media/images/mobile/logo.png) no-repeat; height: 43px; float: left; margin: 8px 0 0 10px; width: 40px; 
+			-webkit-background-size: 100% auto;
+				 -moz-background-size: 100% auto;
+							background-size: 100% auto;
+		}
+		#nav { text-align: left; 
+			a { font-size: 108%; float: left; margin: 15px 10px 0; }
+		}
+		#contact { float: none; width: auto;
+			a { margin-top: 18px; width: 20px; }
+			#email { background: url(../media/images/mobile/mail.png) no-repeat; margin-right: 20px;
+				-webkit-background-size: 100% auto;  
+				-moz-background-size: 100% auto;  
+				background-size: 100% auto;  
+			}
+			#linked_in { background: url(../media/images/mobile/linkedin.png) no-repeat; margin-left: 0; margin-right: 0;
+				-webkit-background-size: 100% auto;  
+				-moz-background-size: 100% auto;  
+				background-size: 100% auto;  
+			}
+		}
+	}
+	#main-content { display: block; margin: 0 auto; padding: 80px 0 0; position: relative; width: 90%; 
+		#projects { height: auto; padding: 0; 
+			li { height: auto; float: none; width: 100%;
+				img { display: block; width: 100%; }
+				.description { border-right: none; border-bottom: 1px dotted #9f9f9f; float: none; height: auto; margin: 3% auto 6%; padding: 0 0 6%; width: auto; 
+					h2,
+					h3 { margin-bottom: 10px; }
+				}
+			}
+			li:last-child {
+				.description { border: none; }
+			}
+		}
+	}
+}
+
+.mobile.about {
+	#main-content { 
+		
+	}
+}

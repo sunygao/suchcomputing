@@ -10,6 +10,9 @@ define("DEV",   "dev_host_environment");
 define("STAGE", "stage_host_environment");
 define("PROD",  "production_host_environment");
 
+require_once DIR_PLUGINS.'/Mobile_Detect.php';
+$detect = new Mobile_Detect();
+
 
 class Config {
 

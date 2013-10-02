@@ -30,4 +30,5 @@ Router::add("#^/api/.*$#", DIR_CTRL.'/api.php', Router::ROUTE_PCRE);
  */
  
  Router::add('/about', DIR_CTRL.'/about.php');
+ Router::add('/mobile', DIR_CTRL.'/mobile.php');
  ?>

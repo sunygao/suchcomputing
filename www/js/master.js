@@ -4,6 +4,8 @@
  * @depends modal.js
  * @depends index.js
  * @depends about.js 
+ * @depends sg.js 
+ * @depends mobile.js 
  */
 
 
