@@ -54,7 +54,7 @@ class Config {
 				
 		switch ($this->server_name) {
 
-			case "simon.local":
+			case "sunygao.local":
 			case "local.sunygao.com":
 				$this->environment = LOCAL;
 				$this->dbhost = 'localhost';

@@ -107,7 +107,15 @@ $textcolor: #c2c2c2;
 				img { display: block; width: 100%; }
 				.description { border-right: none; border-bottom: 1px dotted #9f9f9f; float: none; height: auto; margin: 3% auto 6%; padding: 0 0 6%; width: auto; 
 					h2,
-					h3 { margin-bottom: 10px; }
+					h3 { margin-bottom: 10px; 
+						a {
+							span { background: url(../media/images/mobile/arrow.png); 
+								-webkit-background-size: 100% auto;
+								-moz-background-size: 100% auto;
+								background-size: 100% auto;
+							}
+						}
+					}
 				}
 			}
 			li:last-child {

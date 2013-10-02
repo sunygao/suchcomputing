@@ -101,6 +101,7 @@ body, #menu { min-height: 690px; }
 .mobile #main-content #projects li img { display: block; width: 100%; }
 .mobile #main-content #projects li .description { border-right: none; border-bottom: 1px dotted #9f9f9f; float: none; height: auto; margin: 3% auto 6%; padding: 0 0 6%; width: auto; }
 .mobile #main-content #projects li .description h2, .mobile #main-content #projects li .description h3 { margin-bottom: 10px; }
+.mobile #main-content #projects li .description h2 a span, .mobile #main-content #projects li .description h3 a span { background: url(../media/images/mobile/arrow.png); -webkit-background-size: 100% auto; -moz-background-size: 100% auto; background-size: 100% auto; }
 .mobile #main-content #projects li:last-child .description { border: none; }
 
 .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.75); z-index: 998; }
