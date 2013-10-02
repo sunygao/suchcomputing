@@ -52,13 +52,6 @@ SG.index = function () {
 	// ================================================
 	// = Private functionse (function _private () {}) =
 	// ================================================
-	function reset() {		
-		$('#projects').animate({
-			left: '0%'
-		}, 500, 'easeInSine', function() {
-			$('.project').hide();
-		});
-	}
 
 	function _setupBinds () {
 

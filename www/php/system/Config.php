@@ -69,12 +69,13 @@ class Config {
 
 			break;
 			
-			case "production_url.com":
+			case "sunygao.com":
+			case "www.sunygao.com":
 				//turn off error reporting for production
 				error_reporting(0);
 				ini_set('display_errors', '0');
 
-				$this->environment = PROD;
+				$this->environment = DEV;
 				$this->dbhost = 'localhost';
 				$this->dbuser = "root";
 				$this->dbpass = "root";
