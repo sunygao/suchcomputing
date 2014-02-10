@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <items>
+	<item>
+		<id>potty_talk</id>
+		<images>
+			<image>media/images/projects/pottytalk/pottytalk_twitter.jpg</image>
+			<image>media/images/projects/pottytalk/pi2.jpg</image>
+			<image>media/images/projects/pottytalk/pi.jpg</image>
+	
+		</images>
+		<mobile_image>media/images/projects/pottytalk/pottytalk_twitter.jpg</mobile_image>
+
+		<title>EVB Potty Talk</title>
+		<client>Evolution Bureau</client>
+
+		<description>
+			<![CDATA[
+			<p>EVB's office antics reached a new level with Potty Talk, an app that let's you harass people who are currently in the bathroom. Tweet @evbpottytalk and your tweet will be spoken out loud by the Raspberry Pi installed in the office restroom. Hashtag your tweet with #women or #men to get more specific. You can also follow the potty talk twitter account to receive updates on when someone has entered the bathroom for optimal prank timing.</p>
+
+			<p>Using Node.js, I created a program that aggregates all tweets that mention evbpottytalk. This feed is then read aloud through the Linux speech API. Door and motion sensors collect data on whether someone's entering or leaving the bathroom, and this info is then fed to the potty talk twitter feed.</p>
+
+			<p>Tools: Raspberry Pi, Node.js, Twitter API, </p>
+			]]>
+		</description>
+	</item>
 
 
 	<item>
@@ -22,6 +45,29 @@
 			<p>La Brea Bakery celebrates summer grilling with America's Backyard, a microsite featuring 6 tabletops showcasing tips, recipes, and bread pairings. Scroll through the site on desktop or iPad and watch each section animate in, then explore the hotspots and download the recipes. The site features a simplified mobile experience for easy access to the recipes.</p>
 
 			<p>Tools: HTML, CSS transforms, Javascript, PHP, XML</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
+		<id>red_thumb_reminder</id>
+		<images>
+			<image>media/images/projects/redthumb/redthumb_intro.jpg</image>
+			<image>media/images/projects/redthumb/redthumb_video.jpg</image>
+			<image>media/images/projects/redthumb/redthumb_instagram.jpg</image>
+			<image>media/images/projects/redthumb/redthumb_iphone.jpg</image>
+		</images>
+		<mobile_image>media/images/projects/redthumb/redthumb_intro.jpg</mobile_image>
+
+		<title>Red Thumb Reminder</title>
+		<client>Evolution Bureau</client>
+		<url>http://www.redthumbreminder.com</url>
+
+		<description>
+			<![CDATA[
+			<p>Inspired by creative director Steve Babcock's daughter's method of tying a piece of yarn around her finger to remember something for school, EVB asked people to paint their thumbnails red as a reminder to stop texting while driving. This "old-school approach to a new-world problem" will hopefully be a glaring reminder to drivers to put down the phone and inspire conversations about distracted driving. The site features a Youtube video lightbox, a live instagram feed, and responds to varying devices and screen sizes.</p>
+
+			<p>Tools: Youtube API, Instagram API, Responsive Design, HTML, CSS, Javascript, PHP</p>
 			]]>
 		</description>
 	</item>
