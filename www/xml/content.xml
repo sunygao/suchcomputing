@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <items>
 	<item>
+		<id>diet_coke</id>
+		<images>
+			<image>media/images/projects/dietcoke/desktop_1.jpg</image>
+			<image>media/images/projects/dietcoke/desktop_3.jpg</image>
+			<image>media/images/projects/dietcoke/desktop_4.jpg</image>
+			<image>media/images/projects/dietcoke/DKO_iphone_1.jpg</image>
+			<image>media/images/projects/dietcoke/DKO_iphone_2.jpg</image>
+		</images>
+		<mobile_image>media/images/projects/dietcoke/desktop_1.jpg</mobile_image>
+
+		<title>Diet Coke Homepage</title>
+		<client>Diet Coke</client>
+		<url>http://www.dietcoke.com</url>
+
+		<description>
+			<![CDATA[
+			<p>Responsive and mobile-friendly homepage for Diet Coke, running on the Adobe CQ platform.</p>
+
+
+			<p>Tools: Backbone.js, responsive design, HTML5 video</p>
+			]]>
+		</description>
+	</item>
+	<item>
 		<id>potty_talk</id>
 		<images>
 			<image>media/images/projects/pottytalk/pottytalk_twitter.jpg</image>
@@ -19,7 +43,7 @@
 
 			<p>Using Node.js, I created a program that aggregates all tweets that mention evbpottytalk. This feed is then read aloud through the Linux speech API on the Raspberry Pi. I mounted the pi in the office bathroom, and, along with door and motion sensors, it collected data on whether someone was entering or leaving the bathroom and sent out a tweet whenever it was occupied.</p>
 
-			<p>Tools: Raspberry Pi, Node.js, Twitter API, </p>
+			<p>Tools: Raspberry Pi, Node.js, Twitter API </p>
 			]]>
 		</description>
 	</item>

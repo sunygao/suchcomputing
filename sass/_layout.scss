@@ -17,7 +17,7 @@ $textcolor: #c2c2c2;
 
 #page-wrapper { position: relative; }
 
-#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; overflow: scroll; overflow-x: hidden; padding: 0px 10px; position: fixed; width: 110px; z-index: 2;
+#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; overflow-x: hidden; padding: 0px 10px; position: fixed; width: 110px; z-index: 2;
 	h1 { 
 		a { @include btn(suny); margin: 20px auto 0;  }
 	}
@@ -40,7 +40,7 @@ $textcolor: #c2c2c2;
 	#linked_in { @include btn(linkedin); float: right; }
 }
 
-#main-content { color: $textcolor; height: 100%; /*overflow-y: hidden;*/ /*overflow-x: scroll;*/  position: absolute;/* width: 100%;*/
+#main-content { color: $textcolor; height: 100%; position: absolute;
 	#projects { height: 100%; overflow: hidden; padding: 0 0 0 155px; position: relative;
 		.ie8 { overflow: visible; }
 		li { height: 97%; float: left; padding-bottom: 3%; width: 1196px; }
