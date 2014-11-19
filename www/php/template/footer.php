@@ -16,32 +16,18 @@
 
 	<script type="text/javascript"> window._app_vars = <?= $settings->app_vars_JSON() ?>; </script>
 	
-	<?php if ($settings->environment == PROD) { ?>
-		<!-- BEGIN: PROD javascript -->
-		<script src="/js/evbmaster-min.js" type="text/javascript" charset="utf-8"></script>
-		<!-- END: PROD javascript -->
-	<?php } else { ?>
-		<!-- BEGIN: DEV javascript -->
-			<!-- BEGIN: jquery -->
-			<script src="/js/jquery/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
-			<script src="/js/jquery/jquery.scrollTo.min.js" type="text/javascript" charset="utf-8"></script>
-			<script src="/js/jquery/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/jquery/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/jquery/jquery.scrollTo.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/jquery/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/plugins/imagesloaded.pkgd.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/jquery/jquery.mousewheel.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/jquery/jquery.jscrollpane.min.js" type="text/javascript" charset="utf-8"></script>
+	<!-- END: jquery -->
+	
+	<!-- BEGIN: app -->
+	<script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/index.js" type="text/javascript" charset="utf-8"></script>
 
-			<!-- END: jquery -->
-			<!-- BEGIN: plugins -->
-			<script src="/js/plugins/handlebars-1.0.rc.1.js" type="text/javascript"></script>
-			<!-- END: plugins -->
-			<!-- BEGIN: app -->
-			<script src="/js/master.js" type="text/javascript" charset="utf-8"></script>	
-			<script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
-			<script src="/js/util.js" type="text/javascript" charset="utf-8"></script>
-			<script src="/js/modal.js" type="text/javascript" charset="utf-8"></script>
-			<script src="/js/index.js" type="text/javascript" charset="utf-8"></script>
-			<script src="/js/about.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/js/mobile.js" type="text/javascript" charset="utf-8"></script>
-		<!-- END: app -->
-		<!-- END: DEV javascript -->
-	<?php } ?>
 
 	<script type="text/javascript">	
 		<?php 

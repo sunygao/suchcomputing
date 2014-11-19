@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <items>
 	<item>
+		<id>google_calendar</id>
+		<images>
+			<image>media/images/projects/google_calendar/google_calendar_4.jpg</image>
+			<image>media/images/projects/google_calendar/google_calendar_1.jpg</image>
+			<image>media/images/projects/google_calendar/google_calendar_2.jpg</image>
+			<image>media/images/projects/google_calendar/google_calendar_3.jpg</image>
+		</images>
+		<mobile_image>media/images/projects/google_calendar/google_calendar_2.jpg</mobile_image>
+
+		<title>Google Calendar</title>
+		<client>Google</client>
+		<url>http://www.google.com/calendar/about/</url>
+
+		<description>
+			<![CDATA[
+			<p>B-Reel collaborated with Google to create a landing page for the brand new Google Calendar app. The responsive site showcases the app's core features with scrolling animations, and subtle HTML5 videos in the background. This was my first time working with Google Closure, and I mostly worked on the UI animations within the phone, using the GSAP animation platform and working with motion designers to mimick the UI of the app.</p>
+
+
+			<p>Tools: Google Closure, CSS animations, HTML5 video</p>
+			]]>
+		</description>
+	</item>
+	<item>
 		<id>diet_coke</id>
 		<images>
 			<image>media/images/projects/dietcoke/desktop_1.jpg</image>

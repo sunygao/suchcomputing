@@ -15,9 +15,9 @@ body { background: #313131; @include Crimson(); font-size: 13px; height: 100%; /
 
 $textcolor: #c2c2c2;
 
-#page-wrapper { position: relative; }
+#page-wrapper { /*overflow: hidden;*/ position: relative; }
 
-#menu { background: transparent url(../media/images/bkg_menu.png) repeat; height: 100%; left: 0; overflow-x: hidden; padding: 0px 10px; position: fixed; width: 110px; z-index: 2;
+#menu { background: #ccc; background: rgba(255,255,255, .8); height: 100%; left: 0; overflow-x: hidden; padding: 0px 10px; position: fixed; width: 110px; z-index: 2;
 	h1 { 
 		a { @include btn(suny); margin: 20px auto 0;  }
 	}
@@ -40,16 +40,17 @@ $textcolor: #c2c2c2;
 	#linked_in { @include btn(linkedin); float: right; }
 }
 
-#main-content { color: $textcolor; height: 100%; position: absolute;
+#main-content { color: $textcolor; height: 100%; overflow: hidden; position: absolute;
 	#projects { height: 100%; overflow: hidden; padding: 0 0 0 155px; position: relative;
+		.jspPane { height: auto;}
 		.ie8 { overflow: visible; }
 		li { height: 97%; float: left; padding-bottom: 3%; width: 1196px; }
 		.images { height: 100%; float: left; margin: 20px 10px 0 0; padding-right: 15px; overflow: auto; overflow-x: hidden; width: 700px;
 			li { height: auto; float: none; padding-bottom: 15px; width: auto; } 
-			img { background: white; display: block; width: 100%; }
+			img { background: #313131; display: block; width: 100%; }
 		}
 		li:last-child .description { border-right: none; }
-		.description { border-right: 1px dotted #9f9f9f; height: 94%; float: left; margin: 3% 35px 0 0; padding-right: 35px; width: 400px; 
+		.description { border-right: 1px dotted #9f9f9f; height: 100%; float: left; margin: 0 35px 0 0; padding: 3% 35px 0 0; width: 400px; 
 			a { @include CrimsonBold(); color: #fff; 
 				&:hover { color: $textcolor; }
 			}
@@ -109,6 +110,7 @@ $textcolor: #c2c2c2;
 	}
 	#main-content { display: block; margin: 0 auto; position: relative; width: 90%; 
 		#projects { height: auto;  padding: 80px 0 0;
+
 			li { height: auto; float: none; width: 100%;
 				img { display: block; width: 100%; }
 				.description { border-right: none; border-bottom: 1px dotted #9f9f9f; float: none; height: auto; margin: 3% auto 6%; padding: 0 0 6%; width: auto; 
