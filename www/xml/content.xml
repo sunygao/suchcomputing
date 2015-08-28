@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <items>
 	<item>
+		<id>camp_google</id>
+		<images>
+			<image>media/images/projects/camp_google/camp_google_1.jpg</image>
+			<image>media/images/projects/camp_google/camp_google_2.jpg</image>
+			<image>media/images/projects/camp_google/camp_google_3.jpg</image>
+			<image>media/images/projects/camp_google/camp_google_4.jpg</image>
+			<image>media/images/projects/camp_google/camp_google_mobile.jpg</image>
+		</images>
+		<mobile_image>media/images/projects/camp_google/camp_google_mobile.jpg</mobile_image>
+
+		<title>Camp Google</title>
+		<client>Google</client>
+		<url>http://camp.withgoogle.com</url>
+
+		<description>
+			<![CDATA[
+			<p>Stink Digital collaborated with 72 and Sunny to create Camp Google, a free, four week online summer camp with a different theme each week. Activities, videos, and other kid-friendly content was revealed week by week. We used Python and Backbone.js to compile Jade templates with json data, built custom HTML video players, and created animation inspired by material design. The site is responsive and works across all mobile and tablet devices.
+
+			<p>Tools: Python, Jade, Backbone.js, timeline animations, HTML5 video</p>
+			]]>
+		</description>
+	</item>
+	<item>
 		<id>google_calendar</id>
 		<images>
 			<image>media/images/projects/google_calendar/google_calendar_4.jpg</image>
@@ -192,7 +215,7 @@
 		</description>
 	</item>
 
-	<item>
+<!-- 	<item>
 		<id>foldables</id>
 		<images>
 			<image>media/images/projects/foldables/sgh_1.jpg</image>
@@ -214,9 +237,9 @@
 				<p>Tools: Responsive design, HTML, Javascript</p>
 			]]>
 		</description>
-	</item>
+	</item> -->
 
-	<item>
+<!-- 	<item>
 		<id>love_for_liz</id>
 		<images>
 			<image>media/images/projects/loveforliz/loveforliz_home.jpg</image>
@@ -234,7 +257,7 @@
 				<p>Tools: YouTube API, HTML, CSS, Javascript, PHP</p>
 			]]>
 		</description>
-	</item>
+	</item> -->
 
 
 	<item>
@@ -261,7 +284,7 @@
 		</description>
 	</item>
 
-	<item>
+	<!-- <item>
 		<id>sgg</id>
 		<images>
 			<image>media/images/projects/sgg/sgg_home.jpg</image>
@@ -279,7 +302,7 @@
 				<p>Tools: HTML, Javascript, PHP, Wordpress</p>
 			]]>
 		</description>
-	</item>
+	</item> -->
 
 
 	<item>
