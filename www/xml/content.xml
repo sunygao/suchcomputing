@@ -47,6 +47,30 @@
 		</description>
 	</item>
 	<item>
+		<id>internet_org</id>
+		<images>
+			<image>media/images/projects/internetorg/internet1.jpg</image>
+			<image>media/images/projects/internetorg/internet2.jpg</image>
+			<image>media/images/projects/internetorg/internet3.jpg</image>
+			<image>media/images/projects/internetorg/internet4.jpg</image>
+			<image>media/images/projects/internetorg/internet5.jpg</image>
+			<image>media/images/projects/internetorg/internet6.jpg</image>
+		</images>
+		<mobile_image>media/images/projects/internetorg/internet1.jpg</mobile_image>
+
+		<title>Internet.org mobile</title>
+		<client>Facebook</client>
+		<url>http://www.internet.org/</url>
+
+		<description>
+			<![CDATA[
+			<p>B-Reel helped Facebook create the landing page for their Internet.org intiative, a campaign to bring the web to parts of the world that don't have internet access. I was the front end developer for the mobile site, set up the architecture of the project, and became initimately familiar with the challenges of developing for mobile.</p>
+
+			<p>Tools: Require.js, timeline animations, HTML5 video</p>
+			]]>
+		</description>
+	</item>
+	<item>
 		<id>diet_coke</id>
 		<images>
 			<image>media/images/projects/dietcoke/desktop_1.jpg</image>
