@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <items>
 	<item>
+		<id>year_in_music</id>
+		<images>
+			<image>media/images/projects/yearinmusic/desktop1.jpg</image>
+			<image>media/images/projects/yearinmusic/desktop2.jpg</image>
+			<image>media/images/projects/yearinmusic/desktop3.jpg</image>
+			<image>media/images/projects/yearinmusic/desktop4.jpg</image>
+			<image>media/images/projects/yearinmusic/desktop5.jpg</image>
+			<image>media/images/projects/yearinmusic/mobile1.jpg</image>
+			<image>media/images/projects/yearinmusic/mobile2.jpg</image>
+			<image>media/images/projects/yearinmusic/mobile3.jpg</image>
+			<image>media/images/projects/yearinmusic/mobile4.jpg</image>
+		</images>
+		<mobile_image>media/images/projects/yearinmusic/mobile1.jpg</mobile_image>
+
+		<title>Year in Music 2015</title>
+		<client>Spotify</client>
+		<url>http://yearinmusic.spotify.com</url>
+
+		<description>
+			<![CDATA[
+			<p>Relive the music and the moments that made 2015 one to remember. Get your Year in Music.</p>
+
+			<p>Production company: Stink Digital</p>
+			<p>Role: Freelance front end developer</p>
+
+			<p>Tools: Backbone.js, Pixi.js, webGL, webpack, Handlebars templates, Django</p>
+			]]>
+		</description>
+	</item>
+
+	<item>
 		<id>camp_google</id>
 		<images>
 			<image>media/images/projects/camp_google/camp_google_1.jpg</image>
@@ -17,7 +48,10 @@
 
 		<description>
 			<![CDATA[
-			<p>Stink Digital collaborated with 72 and Sunny to create Camp Google, a free, four week online summer camp with a different theme each week. Activities, videos, and other kid-friendly content was revealed week by week. We used Python and Backbone.js to compile Jade templates with json data, built custom HTML video players, and created animation inspired by material design. The site is responsive and works across all mobile and tablet devices.
+			<p>Stink Digital collaborated with 72 and Sunny to create Camp Google, a free, four week online summer camp with a different theme each week. Activities, videos, and other kid-friendly content was revealed week by week. We used Python and Backbone.js to compile Jade templates with json data, built custom HTML video players, and created animation inspired by material design. The site is responsive and works across all mobile and tablet devices.</p>
+
+			<p>Production company: Stink Digital</p>
+			<p>Role: Freelance front end developer</p>
 
 			<p>Tools: Python, Jade, Backbone.js, timeline animations, HTML5 video</p>
 			]]>
@@ -41,11 +75,43 @@
 			<![CDATA[
 			<p>B-Reel collaborated with Google to create a landing page for the brand new Google Calendar app. The responsive site showcases the app's core features with scrolling animations, and subtle HTML5 videos in the background. This was my first time working with Google Closure, and I mostly worked on the UI animations within the phone, using the GSAP animation platform and working with motion designers to mimick the UI of the app.</p>
 
+			<p>Production company: B-Reel</p>
+			<p>Role: Freelance front end developer</p>
+
 
 			<p>Tools: Google Closure, CSS animations, HTML5 video</p>
 			]]>
 		</description>
 	</item>
+
+	<item>
+		<id>potty_talk</id>
+		<images>
+			<image>media/images/projects/pottytalk/pottytalk_twitter.jpg</image>
+			<image>media/images/projects/pottytalk/pi2.jpg</image>
+			<image>media/images/projects/pottytalk/pi.jpg</image>
+	
+		</images>
+		<mobile_image>media/images/projects/pottytalk/pottytalk_twitter.jpg</mobile_image>
+
+		<title>EVB Potty Talk</title>
+		<client>Evolution Bureau</client>
+
+		<description>
+			<![CDATA[
+			<p>EVB's office antics reached a new level with Potty Talk, an app that let's you harass people who are currently in the bathroom. Tweet @evbpottytalk and your tweet will be spoken out loud by the Raspberry Pi installed in the office restroom. Hashtag your tweet with #women or #men to get more specific. You can also follow the potty talk twitter account to receive updates on when someone has entered the bathroom for optimal prank timing.</p>
+
+			<p>Using Node.js, I created a program that aggregates all tweets that mention evbpottytalk. This feed is then read aloud through the Linux speech API on the Raspberry Pi. I mounted the pi in the office bathroom, and, along with door and motion sensors, it collected data on whether someone was entering or leaving the bathroom and sent out a tweet whenever it was occupied.</p>
+
+			<p>Agency: EVB</p>
+
+			<p>Role: Developer</p>
+
+			<p>Tools: Raspberry Pi, Node.js, Twitter API </p>
+			]]>
+		</description>
+	</item>
+	
 	<item>
 		<id>internet_org</id>
 		<images>
@@ -65,6 +131,9 @@
 		<description>
 			<![CDATA[
 			<p>B-Reel helped Facebook create the landing page for their Internet.org intiative, a campaign to bring the web to parts of the world that don't have internet access. I was the front end developer for the mobile site, set up the architecture of the project, and became initimately familiar with the challenges of developing for mobile.</p>
+
+			<p>Production company: B-Reel</p>
+			<p>Role: Lead front end developer</p>
 
 			<p>Tools: Require.js, timeline animations, HTML5 video</p>
 			]]>
@@ -89,34 +158,15 @@
 			<![CDATA[
 			<p>Responsive and mobile-friendly homepage for Diet Coke, running on the Adobe CQ platform.</p>
 
+			<p>Agency: Droga5</p>
+
+			<p>Role: Lead front end developer</p>
 
 			<p>Tools: Backbone.js, responsive design, HTML5 video</p>
 			]]>
 		</description>
 	</item>
-	<item>
-		<id>potty_talk</id>
-		<images>
-			<image>media/images/projects/pottytalk/pottytalk_twitter.jpg</image>
-			<image>media/images/projects/pottytalk/pi2.jpg</image>
-			<image>media/images/projects/pottytalk/pi.jpg</image>
 	
-		</images>
-		<mobile_image>media/images/projects/pottytalk/pottytalk_twitter.jpg</mobile_image>
-
-		<title>EVB Potty Talk</title>
-		<client>Evolution Bureau</client>
-
-		<description>
-			<![CDATA[
-			<p>EVB's office antics reached a new level with Potty Talk, an app that let's you harass people who are currently in the bathroom. Tweet @evbpottytalk and your tweet will be spoken out loud by the Raspberry Pi installed in the office restroom. Hashtag your tweet with #women or #men to get more specific. You can also follow the potty talk twitter account to receive updates on when someone has entered the bathroom for optimal prank timing.</p>
-
-			<p>Using Node.js, I created a program that aggregates all tweets that mention evbpottytalk. This feed is then read aloud through the Linux speech API on the Raspberry Pi. I mounted the pi in the office bathroom, and, along with door and motion sensors, it collected data on whether someone was entering or leaving the bathroom and sent out a tweet whenever it was occupied.</p>
-
-			<p>Tools: Raspberry Pi, Node.js, Twitter API </p>
-			]]>
-		</description>
-	</item>
 
 
 	<item>
@@ -137,6 +187,11 @@
 		<description>
 			<![CDATA[
 			<p>La Brea Bakery celebrates summer grilling with America's Backyard, a microsite featuring 6 tabletops showcasing tips, recipes, and bread pairings. Scroll through the site on desktop or iPad and watch each section animate in, then explore the hotspots and download the recipes. The site features a simplified mobile experience for easy access to the recipes.</p>
+
+			<p>Agency: EVB</p>
+
+			<p>Role: Front end developer</p>
+
 
 			<p>Tools: HTML, CSS transforms, Javascript, PHP, XML</p>
 			]]>
@@ -160,6 +215,10 @@
 		<description>
 			<![CDATA[
 			<p>Inspired by creative director Steve Babcock's daughter's method of tying a piece of yarn around her finger to remember something for school, EVB asked people to paint their thumbnails red as a reminder to stop texting while driving. This "old-school approach to a new-world problem" will hopefully be a glaring reminder to drivers to put down the phone and inspire conversations about distracted driving. The site features a Youtube video lightbox, a live instagram feed, and responds to varying devices and screen sizes.</p>
+
+			<p>Agency: EVB</p>
+
+			<p>Role: Front end developer</p>
 
 			<p>Tools: Youtube API, Instagram API, Responsive Design, HTML, CSS, Javascript, PHP</p>
 			]]>
@@ -187,6 +246,10 @@
 
 				<p>EVB.com was featured as the FWA's Mobile Site of the Day on <a href="http://www.thefwa.com/mobile/evolution-bureau-evb-website" target="_blank">July 2, 2012</a>.</p>
 
+				<p>Agency: EVB</p>
+
+				<p>Role: Front end developer</p>
+
 				<p>Tools: HTML 5 video, CSS transforms, CSS animations, SVG animations, Responsive design, Javascript, PHP, Wordpress</p>
 			]]>
 		</description>
@@ -207,6 +270,10 @@
 				<p>Introducing the Jimmy John’s Sandwich Cannon, the only app on the market where you can launch Jimmy John's sandwiches at unsuspecting targets. Choose from 5 different sandwiches or load up a cannon of ninjas, kittens or dollar bills. Record a video of the explosion to share on Facebook and Twitter, or via email.</p>
 
 				<p>The app's supporting Facebook tab lets you keep track of the world's greatest cannoneers. Explore each cannon and its popularity, or see a map with CSS animated hotspots showing where cannons are most frequently fired.</p>
+
+				<p>Agency: EVB</p>
+
+				<p>Role: Front end developer</p>
 
 				<p>Tools: HTML, CSS transforms, CSS animations, Javascript, Facebook API</p>
 			]]>
@@ -233,6 +300,10 @@
 					<p>To celebrate grilled cheese month, La Brea Bakery launched The Grilled Cheese Reunion in April 2013. Tell La Brea Bakery your grilled cheese story, and you could win a chance to go home.</p>
 
 				<p>The site's homepage pans to different sections of a "scrapbook", and the images spread apart to display the submission form. Users can also view a gallery of previous submissions and recipes. Open up a gallery item and it flips open like an actual photograph.</p>
+
+				<p>Agency: EVB</p>
+
+				<p>Role: Front end developer</p>
 
 				<p>Tools: CSS animations, CSS transitions, CSS transforms, HTML, Javascript, PHP</p>
 			]]>
@@ -284,7 +355,7 @@
 	</item> -->
 
 
-	<item>
+<!-- 	<item>
 		<id>black_bag</id>
 		<images>
 			<image>media/images/projects/blackbag/glad_1.jpg</image>
@@ -306,7 +377,7 @@
 				<p>Tools: Facebook API, Javascript, HTML, Flash</p>
 			]]>
 		</description>
-	</item>
+	</item> -->
 
 	<!-- <item>
 		<id>sgg</id>
@@ -344,6 +415,10 @@
 			<![CDATA[
 				<p>In April 2011, American Express Travel launched Nextpedition, a mystery trip where the destination and itinerary are unknown until the trip begins and is revealed day by day via a customized Smartphone. Activities determined based on the traveller's answers to a quiz on Nextpedition's website where they can also explore different travel types, see testimonials, and view sample itineraries.</p>
 
+				<p>Agency: CP+B</p>
+
+				<p>Role: Front end developer</p>
+
 				<p>Tools: HTML 5 video, CSS transitions, Javascript, ASP.NET</p>
 			]]>
 		</description>
@@ -363,6 +438,10 @@
 		<description>
 			<![CDATA[
 				<p>Part of American Express Open Forum, this site provides information for small business owners considering whether government contracting is right for them. Learn the basics of government contracting and register your business.</p>
+
+				<p>Agency: CP+B</p>
+
+				<p>Role: Front end developer</p>
 
 				<p>Tools: HTML, CSS, Javascript, ASP.NET</p>
 			]]>
@@ -385,6 +464,10 @@
 				<p>In anticipation of the release of the Tron: Legacy, CP+B and Coke Zero developed a GPS-based mobile game called LiveCycle, a free app for iPhone or Android. Players move around in real space to create their Light Path, building a wall for oppontents to crash into, and avoiding the Light Paths of rivals.</p>
 
 				<p>The app's website features parallax scrolling, HTML 5 video, and supplmentary materials from the film.</p>
+
+				<p>Agency: CP+B</p>
+
+				<p>Role: Front end developer</p>
 
 				<p>Tools: HTML 5 video, CSS animations, Javascript</p>
 			]]>
